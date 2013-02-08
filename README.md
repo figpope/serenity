@@ -179,7 +179,15 @@ Call Status Logging (Internal)
 
 * `POST /api/audio/status` Recieves status callback to update client status
 
-
+#### Request
+```json
+{
+	"CallDuration": "<duration of the call>",
+	"RecordingUrl": "<the url of the audio>",
+	"RecordingSid": "<the id of the recording>",
+	"RecordingDuration": "<the length of the recording>"
+}
+```
 
 Questions
 =========
