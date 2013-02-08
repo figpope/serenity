@@ -1,0 +1,9 @@
+{
+	"name": "serenity",
+	"description": "The distributed PA system you never you needed, but always secretly wanted",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.x"
+	}
+}
