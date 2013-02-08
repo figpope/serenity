@@ -7,7 +7,7 @@ How To Use
 ==========
 
 A speaker starting a conference places posts to `newConference`, then uses `tokenize` with the name of the conference they just added. Subsequent clients will join the conference with a call to `tokenize`.
-
+Questions are added to the server using `add`, and are then pushed to clients, with comments. Each question is assigned a rank based on the number of upvotes and downvotes it's received. The speaker and clients call `list` to receive a list of all of the questions, which allows the speaker to select clients to be unmuted.
 The speaker posts to `unmute` with the name of the client to be unmuted, then the client confirms by placing a call to `confirm`, then the server unmutes them. When the client is finished speaking, the speaker posts to `mute`, muting the client through the server.
 
 API Info
