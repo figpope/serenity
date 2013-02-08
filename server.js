@@ -1,6 +1,8 @@
 var express = require("express"),
 	http = require('http'),
-	routes = require("./routes/twilio");
+	path = require('path'),
+	twilio = require("./routes/twilio"),
+	questions = require("./routes/questions");
 
 var app = express();
 
@@ -18,8 +20,16 @@ app.configure('development', function () {
 	app.use(express.errorHandler());
 });
 
-app.get('/getToken', twilio.newToken(req));
-app.get('/getConference', twilio.newToken(req));
+app.get('api/auth/tokenize', twilio.newToken);
+app.get('api/audio/joinConference', twilio.joinConference);
+app.get('api/audio/conferences', twilio.listConferences);
+app.get('api/audio/newConference', twilio.startConference);
+app.get('api/audio/unmute', twilio.unmute);
+app.get('api/audio/confirm', twilio.confirm);
+app.get('api/audio/mute', twilio.mute);
+app.get('api/audio/status', twilio.state);
+app.get('api/questions/list', questions.get);
+app.get('api/questions/new', questions.add);
 
 http.createServer(app).listen(app.get('port'), function() {
 	console.log("Express server listening on port " + app.get('port'));
