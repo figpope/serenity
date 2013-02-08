@@ -1,5 +1,10 @@
-var redis = require("redis-url").connect(process.env.MYREDIS_URL | "redis://localhost:6379"),
+var redis = require("redis"),
+	url = require('url'),
 	twilio = require('twilio');
+
+var redisURL = url.parse(process.env.REDISCLOUD_URL);
+var db = redis.createClient(redisURL.port, redisURL.hostname, {no_ready_check: true});
+client.auth(redisURL.auth.split(":")[1]);⁄
 
 var config = {};
 var appSid = 'AP5a71e578c91a0498b0c0fd3590d1dce3';
