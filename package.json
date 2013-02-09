@@ -6,6 +6,8 @@
 	"dependencies": {
 		"express": ">=3.x",
 		"twilio": ">=0.7.1",
-		"redis": ">=0.1.5"
+		"mongoose": ">=3.5.5",
+		"mongodb": ">=1.2.11",
+		"socket.io": ">=0.9.11"
 	}
 }
