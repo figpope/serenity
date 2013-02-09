@@ -1,26 +1,23 @@
-var mongoose = require('mongoose'),
-	twilio = require('twilio'),
-	models = require('../models');
+var redis = require("redis-url").connect(process.env.MYREDIS_URL | "redis://localhost:6379"),
+	twilio = require('twilio');
+
+var config = {};
+var appSid = 'AP5a71e578c91a0498b0c0fd3590d1dce3';
 
 if(process.env.ACCOUNT_SID) {
-	config.twilio.accountSid = process.env.ACCOUNT_SID;
-	config.twilio.authToken = process.env.AUTH_TOKEN;
-	config.twilio.appSid = process.env.APP_SID;
-	config.mongo.url = process.env.MONGO_URL;
+	config.accountSid = process.env.ACCOUNT_SID;
+	config.authToken = process.env.AUTH_TOKEN;
 } else { 
-	config = require("../config");
+	config = {
+		accountSid: 'AC789b4cd68055461194fb113706956989',
+		authToken: '73cd8dd8081437d3c4a77e096c5cb8ce'
+	};
 }
-
-mongoose.connect(config.mongo.url);
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function callback () { console.log("   Connection to mongo database successful!"); });
 
 var client = new twilio.RestClient('ACCOUNT_SID', 'AUTH_TOKEN');
 
 exports.newToken = function(req, res) {
-	var capability = new twilio.Capability(config.twilio.accountSid, config.twilio.authToken);
-	capability.allowClientOutgoing(config.twilio.appSid);
+
 };
 exports.joinConference = function(req, res) {
 
@@ -29,8 +26,7 @@ exports.listConferences = function(req, res) {
 
 };
 exports.startConference = function(req, res) {
-	res.writeHead(200);
-	res.end();
+
 };
 exports.unmute = function(req, res) {
 

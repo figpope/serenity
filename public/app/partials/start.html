@@ -1,0 +1,25 @@
+<h1>Start</h1>
+
+<br>
+
+<div>
+	<form ng-submit="newConference()" class="form-horizontal">
+	<fieldset>
+		<legend>Join an existing conference.</legend>
+		<input type="text" ng-model="conferenceName" placeholder="Conference Name">
+		<button type="submit" class="btn">Join</button>
+	</fieldset>
+	</form>
+</div>
+
+<div>
+	<form ng-submit="newConference()" class="form-horizontal">
+	<fieldset>
+		<legend>Create a new Conference</legend>
+		<input type="text" ng-model="newConferenceName" placeholder="Conference Name">
+		<input type="text" ng-model="location" placeholder="Location">
+		<input type="text" ng-model="description" placeholder="Description">
+		<button type="submit" class="btn">Create</button>
+	</fieldset>
+	</form>
+</div>
