@@ -7,119 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D353D3FB16C59FDC008E8B2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D353D3FA16C59FDC008E8B2A /* UIKit.framework */; };
-		D353D3FD16C59FDC008E8B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D353D3FC16C59FDC008E8B2A /* Foundation.framework */; };
-		D353D3FF16C59FDC008E8B2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D353D3FE16C59FDC008E8B2A /* CoreGraphics.framework */; };
-		D353D40516C59FDC008E8B2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D353D40316C59FDC008E8B2A /* InfoPlist.strings */; };
-		D353D40716C59FDC008E8B2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D353D40616C59FDC008E8B2A /* main.m */; };
-		D353D40B16C59FDC008E8B2A /* SyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D353D40A16C59FDC008E8B2A /* SyAppDelegate.m */; };
-		D353D40D16C59FDC008E8B2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D40C16C59FDC008E8B2A /* Default.png */; };
-		D353D40F16C59FDC008E8B2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D40E16C59FDC008E8B2A /* Default@2x.png */; };
-		D353D41116C59FDC008E8B2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D41016C59FDC008E8B2A /* Default-568h@2x.png */; };
-		D353D41416C59FDC008E8B2A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D353D41216C59FDC008E8B2A /* MainStoryboard.storyboard */; };
-		D353D41716C59FDC008E8B2A /* SyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D353D41616C59FDC008E8B2A /* SyFirstViewController.m */; };
-		D353D41916C59FDC008E8B2A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D41816C59FDC008E8B2A /* first.png */; };
-		D353D41B16C59FDC008E8B2A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D41A16C59FDC008E8B2A /* first@2x.png */; };
-		D353D41E16C59FDC008E8B2A /* SySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D353D41D16C59FDC008E8B2A /* SySecondViewController.m */; };
-		D353D42016C59FDC008E8B2A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D41F16C59FDC008E8B2A /* second.png */; };
-		D353D42216C59FDC008E8B2A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D353D42116C59FDC008E8B2A /* second@2x.png */; };
+		D3CF69F916C61BD300873D2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF69F816C61BD300873D2B /* UIKit.framework */; };
+		D3CF69FB16C61BD300873D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF69FA16C61BD300873D2B /* Foundation.framework */; };
+		D3CF69FD16C61BD300873D2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF69FC16C61BD300873D2B /* CoreGraphics.framework */; };
+		D3CF6A0316C61BD300873D2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A0116C61BD300873D2B /* InfoPlist.strings */; };
+		D3CF6A0516C61BD300873D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6A0416C61BD300873D2B /* main.m */; };
+		D3CF6A0916C61BD300873D2B /* SyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6A0816C61BD300873D2B /* SyAppDelegate.m */; };
+		D3CF6A0B16C61BD300873D2B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A0A16C61BD300873D2B /* Default.png */; };
+		D3CF6A0D16C61BD300873D2B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A0C16C61BD300873D2B /* Default@2x.png */; };
+		D3CF6A0F16C61BD300873D2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A0E16C61BD300873D2B /* Default-568h@2x.png */; };
+		D3CF6A1216C61BD300873D2B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A1016C61BD300873D2B /* MainStoryboard.storyboard */; };
+		D3CF6A1516C61BD300873D2B /* SyFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6A1416C61BD300873D2B /* SyFirstViewController.m */; };
+		D3CF6A1716C61BD300873D2B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A1616C61BD300873D2B /* first.png */; };
+		D3CF6A1916C61BD300873D2B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A1816C61BD300873D2B /* first@2x.png */; };
+		D3CF6A1C16C61BD300873D2B /* SySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF6A1B16C61BD300873D2B /* SySecondViewController.m */; };
+		D3CF6A1E16C61BD300873D2B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A1D16C61BD300873D2B /* second.png */; };
+		D3CF6A2016C61BD300873D2B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CF6A1F16C61BD300873D2B /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D353D3F616C59FDC008E8B2A /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D353D3FA16C59FDC008E8B2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D353D3FC16C59FDC008E8B2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D353D3FE16C59FDC008E8B2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D353D40216C59FDC008E8B2A /* Serenity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Serenity-Info.plist"; sourceTree = "<group>"; };
-		D353D40416C59FDC008E8B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D353D40616C59FDC008E8B2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D353D40816C59FDC008E8B2A /* Serenity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Serenity-Prefix.pch"; sourceTree = "<group>"; };
-		D353D40916C59FDC008E8B2A /* SyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyAppDelegate.h; sourceTree = "<group>"; };
-		D353D40A16C59FDC008E8B2A /* SyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyAppDelegate.m; sourceTree = "<group>"; };
-		D353D40C16C59FDC008E8B2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D353D40E16C59FDC008E8B2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D353D41016C59FDC008E8B2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D353D41316C59FDC008E8B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D353D41516C59FDC008E8B2A /* SyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyFirstViewController.h; sourceTree = "<group>"; };
-		D353D41616C59FDC008E8B2A /* SyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyFirstViewController.m; sourceTree = "<group>"; };
-		D353D41816C59FDC008E8B2A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		D353D41A16C59FDC008E8B2A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		D353D41C16C59FDC008E8B2A /* SySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SySecondViewController.h; sourceTree = "<group>"; };
-		D353D41D16C59FDC008E8B2A /* SySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SySecondViewController.m; sourceTree = "<group>"; };
-		D353D41F16C59FDC008E8B2A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		D353D42116C59FDC008E8B2A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D3CF69F416C61BD300873D2B /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF69F816C61BD300873D2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3CF69FA16C61BD300873D2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3CF69FC16C61BD300873D2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3CF6A0016C61BD300873D2B /* Serenity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Serenity-Info.plist"; sourceTree = "<group>"; };
+		D3CF6A0216C61BD300873D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3CF6A0416C61BD300873D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CF6A0616C61BD300873D2B /* Serenity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Serenity-Prefix.pch"; sourceTree = "<group>"; };
+		D3CF6A0716C61BD300873D2B /* SyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyAppDelegate.h; sourceTree = "<group>"; };
+		D3CF6A0816C61BD300873D2B /* SyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyAppDelegate.m; sourceTree = "<group>"; };
+		D3CF6A0A16C61BD300873D2B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D3CF6A0C16C61BD300873D2B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D3CF6A0E16C61BD300873D2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3CF6A1116C61BD300873D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D3CF6A1316C61BD300873D2B /* SyFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyFirstViewController.h; sourceTree = "<group>"; };
+		D3CF6A1416C61BD300873D2B /* SyFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyFirstViewController.m; sourceTree = "<group>"; };
+		D3CF6A1616C61BD300873D2B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D3CF6A1816C61BD300873D2B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D3CF6A1A16C61BD300873D2B /* SySecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SySecondViewController.h; sourceTree = "<group>"; };
+		D3CF6A1B16C61BD300873D2B /* SySecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SySecondViewController.m; sourceTree = "<group>"; };
+		D3CF6A1D16C61BD300873D2B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D3CF6A1F16C61BD300873D2B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D353D3F316C59FDC008E8B2A /* Frameworks */ = {
+		D3CF69F116C61BD300873D2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D353D3FB16C59FDC008E8B2A /* UIKit.framework in Frameworks */,
-				D353D3FD16C59FDC008E8B2A /* Foundation.framework in Frameworks */,
-				D353D3FF16C59FDC008E8B2A /* CoreGraphics.framework in Frameworks */,
+				D3CF69F916C61BD300873D2B /* UIKit.framework in Frameworks */,
+				D3CF69FB16C61BD300873D2B /* Foundation.framework in Frameworks */,
+				D3CF69FD16C61BD300873D2B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D353D3EB16C59FDC008E8B2A = {
+		D3CF69E916C61BD300873D2B = {
 			isa = PBXGroup;
 			children = (
-				D353D40016C59FDC008E8B2A /* Serenity */,
-				D353D3F916C59FDC008E8B2A /* Frameworks */,
-				D353D3F716C59FDC008E8B2A /* Products */,
+				D3CF69FE16C61BD300873D2B /* Serenity */,
+				D3CF69F716C61BD300873D2B /* Frameworks */,
+				D3CF69F516C61BD300873D2B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D353D3F716C59FDC008E8B2A /* Products */ = {
+		D3CF69F516C61BD300873D2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D353D3F616C59FDC008E8B2A /* Serenity.app */,
+				D3CF69F416C61BD300873D2B /* Serenity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D353D3F916C59FDC008E8B2A /* Frameworks */ = {
+		D3CF69F716C61BD300873D2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D353D3FA16C59FDC008E8B2A /* UIKit.framework */,
-				D353D3FC16C59FDC008E8B2A /* Foundation.framework */,
-				D353D3FE16C59FDC008E8B2A /* CoreGraphics.framework */,
+				D3CF69F816C61BD300873D2B /* UIKit.framework */,
+				D3CF69FA16C61BD300873D2B /* Foundation.framework */,
+				D3CF69FC16C61BD300873D2B /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D353D40016C59FDC008E8B2A /* Serenity */ = {
+		D3CF69FE16C61BD300873D2B /* Serenity */ = {
 			isa = PBXGroup;
 			children = (
-				D353D40916C59FDC008E8B2A /* SyAppDelegate.h */,
-				D353D40A16C59FDC008E8B2A /* SyAppDelegate.m */,
-				D353D41216C59FDC008E8B2A /* MainStoryboard.storyboard */,
-				D353D41516C59FDC008E8B2A /* SyFirstViewController.h */,
-				D353D41616C59FDC008E8B2A /* SyFirstViewController.m */,
-				D353D41816C59FDC008E8B2A /* first.png */,
-				D353D41A16C59FDC008E8B2A /* first@2x.png */,
-				D353D41C16C59FDC008E8B2A /* SySecondViewController.h */,
-				D353D41D16C59FDC008E8B2A /* SySecondViewController.m */,
-				D353D41F16C59FDC008E8B2A /* second.png */,
-				D353D42116C59FDC008E8B2A /* second@2x.png */,
-				D353D40116C59FDC008E8B2A /* Supporting Files */,
+				D3CF6A0716C61BD300873D2B /* SyAppDelegate.h */,
+				D3CF6A0816C61BD300873D2B /* SyAppDelegate.m */,
+				D3CF6A1016C61BD300873D2B /* MainStoryboard.storyboard */,
+				D3CF6A1316C61BD300873D2B /* SyFirstViewController.h */,
+				D3CF6A1416C61BD300873D2B /* SyFirstViewController.m */,
+				D3CF6A1616C61BD300873D2B /* first.png */,
+				D3CF6A1816C61BD300873D2B /* first@2x.png */,
+				D3CF6A1A16C61BD300873D2B /* SySecondViewController.h */,
+				D3CF6A1B16C61BD300873D2B /* SySecondViewController.m */,
+				D3CF6A1D16C61BD300873D2B /* second.png */,
+				D3CF6A1F16C61BD300873D2B /* second@2x.png */,
+				D3CF69FF16C61BD300873D2B /* Supporting Files */,
 			);
 			path = Serenity;
 			sourceTree = "<group>";
 		};
-		D353D40116C59FDC008E8B2A /* Supporting Files */ = {
+		D3CF69FF16C61BD300873D2B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D353D40216C59FDC008E8B2A /* Serenity-Info.plist */,
-				D353D40316C59FDC008E8B2A /* InfoPlist.strings */,
-				D353D40616C59FDC008E8B2A /* main.m */,
-				D353D40816C59FDC008E8B2A /* Serenity-Prefix.pch */,
-				D353D40C16C59FDC008E8B2A /* Default.png */,
-				D353D40E16C59FDC008E8B2A /* Default@2x.png */,
-				D353D41016C59FDC008E8B2A /* Default-568h@2x.png */,
+				D3CF6A0016C61BD300873D2B /* Serenity-Info.plist */,
+				D3CF6A0116C61BD300873D2B /* InfoPlist.strings */,
+				D3CF6A0416C61BD300873D2B /* main.m */,
+				D3CF6A0616C61BD300873D2B /* Serenity-Prefix.pch */,
+				D3CF6A0A16C61BD300873D2B /* Default.png */,
+				D3CF6A0C16C61BD300873D2B /* Default@2x.png */,
+				D3CF6A0E16C61BD300873D2B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,13 +127,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D353D3F516C59FDC008E8B2A /* Serenity */ = {
+		D3CF69F316C61BD300873D2B /* Serenity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D353D42516C59FDC008E8B2A /* Build configuration list for PBXNativeTarget "Serenity" */;
+			buildConfigurationList = D3CF6A2316C61BD300873D2B /* Build configuration list for PBXNativeTarget "Serenity" */;
 			buildPhases = (
-				D353D3F216C59FDC008E8B2A /* Sources */,
-				D353D3F316C59FDC008E8B2A /* Frameworks */,
-				D353D3F416C59FDC008E8B2A /* Resources */,
+				D3CF69F016C61BD300873D2B /* Sources */,
+				D3CF69F116C61BD300873D2B /* Frameworks */,
+				D3CF69F216C61BD300873D2B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,82 +141,82 @@
 			);
 			name = Serenity;
 			productName = Serenity;
-			productReference = D353D3F616C59FDC008E8B2A /* Serenity.app */;
+			productReference = D3CF69F416C61BD300873D2B /* Serenity.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D353D3ED16C59FDC008E8B2A /* Project object */ = {
+		D3CF69EB16C61BD300873D2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Sy;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = brishin;
 			};
-			buildConfigurationList = D353D3F016C59FDC008E8B2A /* Build configuration list for PBXProject "Serenity" */;
+			buildConfigurationList = D3CF69EE16C61BD300873D2B /* Build configuration list for PBXProject "Serenity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D353D3EB16C59FDC008E8B2A;
-			productRefGroup = D353D3F716C59FDC008E8B2A /* Products */;
+			mainGroup = D3CF69E916C61BD300873D2B;
+			productRefGroup = D3CF69F516C61BD300873D2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D353D3F516C59FDC008E8B2A /* Serenity */,
+				D3CF69F316C61BD300873D2B /* Serenity */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D353D3F416C59FDC008E8B2A /* Resources */ = {
+		D3CF69F216C61BD300873D2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D353D40516C59FDC008E8B2A /* InfoPlist.strings in Resources */,
-				D353D40D16C59FDC008E8B2A /* Default.png in Resources */,
-				D353D40F16C59FDC008E8B2A /* Default@2x.png in Resources */,
-				D353D41116C59FDC008E8B2A /* Default-568h@2x.png in Resources */,
-				D353D41416C59FDC008E8B2A /* MainStoryboard.storyboard in Resources */,
-				D353D41916C59FDC008E8B2A /* first.png in Resources */,
-				D353D41B16C59FDC008E8B2A /* first@2x.png in Resources */,
-				D353D42016C59FDC008E8B2A /* second.png in Resources */,
-				D353D42216C59FDC008E8B2A /* second@2x.png in Resources */,
+				D3CF6A0316C61BD300873D2B /* InfoPlist.strings in Resources */,
+				D3CF6A0B16C61BD300873D2B /* Default.png in Resources */,
+				D3CF6A0D16C61BD300873D2B /* Default@2x.png in Resources */,
+				D3CF6A0F16C61BD300873D2B /* Default-568h@2x.png in Resources */,
+				D3CF6A1216C61BD300873D2B /* MainStoryboard.storyboard in Resources */,
+				D3CF6A1716C61BD300873D2B /* first.png in Resources */,
+				D3CF6A1916C61BD300873D2B /* first@2x.png in Resources */,
+				D3CF6A1E16C61BD300873D2B /* second.png in Resources */,
+				D3CF6A2016C61BD300873D2B /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D353D3F216C59FDC008E8B2A /* Sources */ = {
+		D3CF69F016C61BD300873D2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D353D40716C59FDC008E8B2A /* main.m in Sources */,
-				D353D40B16C59FDC008E8B2A /* SyAppDelegate.m in Sources */,
-				D353D41716C59FDC008E8B2A /* SyFirstViewController.m in Sources */,
-				D353D41E16C59FDC008E8B2A /* SySecondViewController.m in Sources */,
+				D3CF6A0516C61BD300873D2B /* main.m in Sources */,
+				D3CF6A0916C61BD300873D2B /* SyAppDelegate.m in Sources */,
+				D3CF6A1516C61BD300873D2B /* SyFirstViewController.m in Sources */,
+				D3CF6A1C16C61BD300873D2B /* SySecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D353D40316C59FDC008E8B2A /* InfoPlist.strings */ = {
+		D3CF6A0116C61BD300873D2B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D353D40416C59FDC008E8B2A /* en */,
+				D3CF6A0216C61BD300873D2B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D353D41216C59FDC008E8B2A /* MainStoryboard.storyboard */ = {
+		D3CF6A1016C61BD300873D2B /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D353D41316C59FDC008E8B2A /* en */,
+				D3CF6A1116C61BD300873D2B /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D353D42316C59FDC008E8B2A /* Debug */ = {
+		D3CF6A2116C61BD300873D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		D353D42416C59FDC008E8B2A /* Release */ = {
+		D3CF6A2216C61BD300873D2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +274,7 @@
 			};
 			name = Release;
 		};
-		D353D42616C59FDC008E8B2A /* Debug */ = {
+		D3CF6A2416C61BD300873D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -285,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		D353D42716C59FDC008E8B2A /* Release */ = {
+		D3CF6A2516C61BD300873D2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -299,24 +299,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D353D3F016C59FDC008E8B2A /* Build configuration list for PBXProject "Serenity" */ = {
+		D3CF69EE16C61BD300873D2B /* Build configuration list for PBXProject "Serenity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D353D42316C59FDC008E8B2A /* Debug */,
-				D353D42416C59FDC008E8B2A /* Release */,
+				D3CF6A2116C61BD300873D2B /* Debug */,
+				D3CF6A2216C61BD300873D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D353D42516C59FDC008E8B2A /* Build configuration list for PBXNativeTarget "Serenity" */ = {
+		D3CF6A2316C61BD300873D2B /* Build configuration list for PBXNativeTarget "Serenity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D353D42616C59FDC008E8B2A /* Debug */,
-				D353D42716C59FDC008E8B2A /* Release */,
+				D3CF6A2416C61BD300873D2B /* Debug */,
+				D3CF6A2516C61BD300873D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D353D3ED16C59FDC008E8B2A /* Project object */;
+	rootObject = D3CF69EB16C61BD300873D2B /* Project object */;
 }
