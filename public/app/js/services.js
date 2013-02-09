@@ -46,7 +46,7 @@ angular.module('myApp.services', []).
 	Connect.connectConference = function() {
 		var performConnection = function() {
 			Twilio.Device.connect(function (conn) {
-				
+				console.log("Connected.");
 			});
 		};
 		if (Connect.currentToken) {
@@ -54,7 +54,7 @@ angular.module('myApp.services', []).
 			Twilio.Device.ready(function (device) {
 				console.log("Connection ready.");
 				performConnection();
-			};
+			});
 
 		} else {
 			console.log("Connection failed, no token.")
